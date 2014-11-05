@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* GENERAL */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+/* "HOME" PAGE */
+
+.main-banner-section{
+	background: transparent url("../img/mountains-banner.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+.logo{
+	width: 500px;
+}
+
+
+/* ABOUT */
+
+.about-section{
+	background-color: #eb7f50;
+}
+
+h2{
+	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+	color: #fff;
+	text-align:center;
+}
+
+.about-me{
+	font-family: font-family: 'Open Sans', sans-serif;
+}
+
+/* PORTFOLIO */
+
+.extraordinary-section{
+	background-color: #2e2e2e;
+}
+
+/* CONTACT/FOOTER */
