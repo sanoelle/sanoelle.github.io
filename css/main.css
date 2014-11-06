@@ -23,6 +23,7 @@ img {
 .nav{
 	text-align:center;
 	margin-top: -5em;
+	position: fixed;
 }
 
 .nav a,
