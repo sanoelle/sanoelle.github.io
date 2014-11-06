@@ -24,6 +24,7 @@ img {
 	text-align:center;
 	margin-top: -5em;
 	position: fixed;
+	width: 100%;
 }
 
 .nav a,
