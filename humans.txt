@@ -12,3 +12,5 @@ Illustrator
 Hover.com
 
 # THANKS
+
+A big thank you to Devin Sturgeon for his .js page scroll code
