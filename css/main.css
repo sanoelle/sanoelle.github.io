@@ -70,13 +70,13 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/mountains-banner.jpg") no-repeat center top;
+	background: transparent url("../img/floral-noise-banner.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 7rem 0;
 }
 
 .logo {
-	width: 250px;
+	width: 300px;
 	margin-top: 2.5em;
 }
 
@@ -108,6 +108,9 @@ h2 {
 /* Need other prefixes */
 .js-extraordinary-fade {
 	-webkit-animation: extraordinary-fade 1s linear forwards;	
+	-moz-transition: extraordinary-fade 1s linear forwards;
+	-ms-transition: extraordinary-fade 1s linear forwards;
+	-o-transition: extraordinary-fade 1s linear forwards;	
 }
 
 @-webkit-keyframes extraordinary-fade {
