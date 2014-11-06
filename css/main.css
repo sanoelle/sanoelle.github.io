@@ -21,10 +21,34 @@ img {
 /* NAVIGATION */
 
 .nav{
-	color:rgba(178,198,201,1.00);
-	display:inline;
+	text-align:center;
+	margin-top: -5em;
 }
 
+.nav a,
+.nav a:link,
+.nav a:visited{
+	float:left;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 2rem;
+}
+
+.nav li{
+	text-align:center;
+	display: inline-block;
+	padding: 1em;
+}
+
+.nav ul{
+	padding: 0;
+	margin: 0 auto;
+	xdisplay: inline-block;
+	/*width: 17em;*/
+}
 /* "HOME" PAGE */
 
 .main-banner-section{
@@ -42,21 +66,21 @@ img {
 
 .about-section{
 	background-color: #eb7f50;
-	padding: 10rem 5rem;
+	padding: 2rem 1rem;
 }
 
 h2{
 	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
 	color: #2e2e2e;
 	text-align:center;
-	font-size:36px;
+	font-size:20px;
 }
 
 .about-me{
 	font-family: 'Open Sans', sans-serif;
 	color: #2e2e2e;
 	text-align: center;
-	font-size: 25px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
@@ -70,7 +94,7 @@ h2{
 .extraordinary{
 	color: #fff;
 	text-align:center;
-	font-size:45px;
+	font-size:20px;
 	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
 	font-style: italic;	
 }
