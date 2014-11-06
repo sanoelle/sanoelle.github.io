@@ -33,14 +33,14 @@ img {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 10px;
 	line-height: 2rem;
 }
 
 .nav li{
 	text-align:center;
 	display: inline-block;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .nav ul{
@@ -58,7 +58,8 @@ img {
 }
 
 .logo{
-	width: 250px;
+	width: 200px;
+	margin-top: 2em;
 }
 
 
