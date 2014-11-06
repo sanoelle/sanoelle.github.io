@@ -20,15 +20,21 @@ img {
 
 /* NAVIGATION */
 
+.nav{
+	color:rgba(178,198,201,1.00);
+	display:inline;
+}
+
 /* "HOME" PAGE */
 
 .main-banner-section{
 	background: transparent url("../img/mountains-banner.jpg") no-repeat center top;
 	background-size: cover;
+	padding: 5rem 0;
 }
 
 .logo{
-	width: 500px;
+	width: 250px;
 }
 
 
@@ -36,22 +42,56 @@ img {
 
 .about-section{
 	background-color: #eb7f50;
+	padding: 10rem 5rem;
 }
 
 h2{
 	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
-	color: #fff;
+	color: #2e2e2e;
 	text-align:center;
+	font-size:36px;
 }
 
 .about-me{
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	color: #2e2e2e;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
 }
 
 /* PORTFOLIO */
 
 .extraordinary-section{
 	background-color: #2e2e2e;
+	padding: 5rem 0
+}
+
+.extraordinary{
+	color: #fff;
+	text-align:center;
+	font-size:45px;
+	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+	font-style: italic;	
+}
+
+h3{
+	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+}
+
+.portfolio-description{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.portfolio-section-1,
+.portfolio-section-2,
+.portfolio-section-3,
+.portfolio-section-4,
+.portfolio-section-5,
+.portfolio-section-6,
+.portfolio-section-7{
+	padding: 10rem 5rem;
 }
 
 /* CONTACT/FOOTER */
