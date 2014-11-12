@@ -35,7 +35,7 @@ img {
 	top: 3em;
 	height: 50px;
 	z-index: 150;
-	background-color: rgba(255,255,255,.2)
+	background-color: rgba(46,46,46,.2)
 }
 
 .nav-scrolled {
@@ -49,7 +49,8 @@ img {
 .nav a:visited {
 	float:left;
 	text-align:center;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1.5px;
 	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
@@ -73,8 +74,8 @@ img {
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	color: #FFF;
-	border-bottom: thick #eb7f50;
+	color: #d8eff4;
+	font-weight: 600;
 }
 
 /* "HOME" PAGE */
@@ -96,10 +97,17 @@ img {
 	text-transform:uppercase;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 36px;
-	font-weight: 300;
-	margin: 3em 1em;
+	font-weight: 400;
+	margin: 2.2em 1em;
 }
 
+.intro-2{
+	color: #fff;
+	text-align:center;
+	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+	font-size: 12px;
+	font-weight: 400;
+}
 
 /* ABOUT */
 
