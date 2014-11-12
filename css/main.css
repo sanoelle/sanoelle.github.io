@@ -49,11 +49,11 @@ img {
 .nav a:visited {
 	float:left;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif;
-	color: #d8eff4;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 300;
 	line-height: 2rem;
 }
 
@@ -74,12 +74,13 @@ img {
 .nav a:focus,
 .nav a:active{
 	color: #FFF;
+	border-bottom: thick #eb7f50;
 }
 
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/floral-noise-banner.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-noise.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 6.5rem 0;
 }
@@ -87,6 +88,16 @@ img {
 .logo {
 	width: 300px;
 	margin-top: 1em;
+}
+
+.intro{
+	color: #fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	margin: 3em 1em;
 }
 
 
