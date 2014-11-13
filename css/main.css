@@ -103,7 +103,7 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/mountains-banner-sn.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-noise-smaller.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 6.5rem 0;
 }
@@ -199,7 +199,7 @@ h3 {
 .portfolio-section-5,
 .portfolio-section-6,
 .portfolio-section-7{
-	padding: 10rem 5rem;
+	padding: 7rem 5rem;
 }
 
 .portfolio-section-1,
@@ -210,8 +210,17 @@ h3 {
 }
 
 .footer-section{
-	padding: 5rem;
+	padding: 2rem;
 	background-color: #2e2e2e;
+}
+
+.copyright{
+	text-align:center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	
 }
 
 @media only screen and (min-width: 41em){
@@ -239,6 +248,11 @@ h3 {
 	height: 80px;
 	margin-top: -16.8rem;
 	margin-left: 1rem;
+}
+
+.copyright{
+	text-align: left;
+	padding: 0 3rem;
 }
 
 }
