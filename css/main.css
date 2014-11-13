@@ -29,17 +29,20 @@ img {
 /* NAVIGATION */
 
 .nav-bar{
-	background-color: rgba(46,46,46,.2)
-	
+	background-color: red;
+	height: 50px;
+	position: fixed;
 }
 
 .logo {
 	width: 50px;
 	height: 50px;
 	float: left;
-	display: block;
+	display: inline-block;
 	margin-top: -7.8rem;
 	margin-left: 1rem;
+	position: fixed;
+	background-color: #eb7f50;
 }
 
 /*.nav {
@@ -55,10 +58,8 @@ img {
 .nav {
 	text-align:right;
 	position: fixed;
-	top: 0em;
 	height: 50px;
-	z-index: 150;
-	background-color: none;
+	font-size: 12px;
 }
 
 .nav-scrolled {
@@ -70,13 +71,11 @@ img {
 .nav a,
 .nav a:link,
 .nav a:visited {
-	/*float:left;*/
 	text-align:right;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 1.5px;
 	color: #fff;
 	text-decoration: none;
-	font-size: 12px;
 	font-weight: 300;
 	line-height: 2rem;
 }
@@ -203,6 +202,18 @@ h3 {
 	padding: 10rem 5rem;
 }
 
+.portfolio-section-1,
+.portfolio-section-3,
+.portfolio-section-5,
+.portfolio-section-7{
+	background-color: #ccc;	
+}
+
+.footer-section{
+	padding: 5rem;
+	background-color: #2e2e2e;
+}
+
 @media only screen and (min-width: 41em){
 
 .main-banner-section {
@@ -220,13 +231,29 @@ h3 {
 .nav li {
 	padding-left: 2em;
 	padding-right: 2em;
+	font-size: 16px;
 }
+
+.logo {
+	width: 80px;
+	height: 80px;
+	margin-top: -16.8rem;
+	margin-left: 1rem;
+}
+
 }
 
 @media only screen and (min-width: 56em){
 
 .main-banner-section {
 	padding: 20rem 0;
+}
+
+.logo {
+	width: 110px;
+	height: 110px;
+	margin-top: -21.8rem;
+	margin-left: 1rem;
 }
 
 /*.nav {
