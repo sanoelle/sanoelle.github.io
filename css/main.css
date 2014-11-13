@@ -28,7 +28,21 @@ img {
 
 /* NAVIGATION */
 
-.nav {
+.nav-bar{
+	background-color: rgba(46,46,46,.2)
+	
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: block;
+	margin-top: -7.8rem;
+	margin-left: 1rem;
+}
+
+/*.nav {
 	text-align:center;
 	position: fixed;
 	width: 100%;
@@ -36,6 +50,15 @@ img {
 	height: 50px;
 	z-index: 150;
 	background-color: rgba(46,46,46,.2)
+}*/
+
+.nav {
+	text-align:right;
+	position: fixed;
+	top: 0em;
+	height: 50px;
+	z-index: 150;
+	background-color: none;
 }
 
 .nav-scrolled {
@@ -47,8 +70,8 @@ img {
 .nav a,
 .nav a:link,
 .nav a:visited {
-	float:left;
-	text-align:center;
+	/*float:left;*/
+	text-align:right;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 1.5px;
 	color: #fff;
@@ -81,18 +104,13 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/mountains-banner-noise.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-sn.jpg") no-repeat center top;
 	background-size: cover;
 	padding: 6.5rem 0;
 }
 
-.logo {
-	width: 300px;
-	margin-top: 1em;
-}
-
 .intro{
-	color: #fff;
+	color: #d8eff4;
 	text-align:center;
 	text-transform:uppercase;
 	font-family: 'Quicksand', sans-serif;
@@ -183,6 +201,66 @@ h3 {
 .portfolio-section-6,
 .portfolio-section-7{
 	padding: 10rem 5rem;
+}
+
+@media only screen and (min-width: 41em){
+
+.main-banner-section {
+	padding: 15rem 0;
+}
+
+.about-section {
+	padding: 8rem 5rem;
+}
+
+.extraordinary-section {
+	padding: 8rem 0
+}
+
+.nav li {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+}
+
+@media only screen and (min-width: 56em){
+
+.main-banner-section {
+	padding: 20rem 0;
+}
+
+/*.nav {
+	text-align:right;
+	position: fixed;
+	top: 0em;
+	height: 50px;
+	z-index: 150;
+	background-color: none;
+}*/
+
+.about-section {
+	padding: 10rem 8rem;
+	line-height: 1.5rem;
+}
+
+.extraordinary-section {
+	padding: 10rem 0
+}
+
+.extraordinary {
+	font-size: 24px;
+}
+
+
+.intro-2{
+	font-size: 14px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+
 }
 
 /* CONTACT/FOOTER */
