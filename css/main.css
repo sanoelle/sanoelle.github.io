@@ -42,7 +42,7 @@ img {
 	margin-top: -7.8rem;
 	margin-left: 1rem;
 	position: fixed;
-	background-color: rgba(235,127,80,.7);
+	/*background-color: rgba(235,127,80,.7);*/
 }
 
 /*.nav {
@@ -72,7 +72,7 @@ img {
 .nav a:link,
 .nav a:visited {
 	text-align:right;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	letter-spacing: 1.5px;
 	color: #fff;
 	text-decoration: none;
@@ -141,7 +141,7 @@ h2 {
 }
 
 .about-me {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #2e2e2e;
 	text-align: center;
 	font-size: 16px;
@@ -170,8 +170,9 @@ h2 {
 /* PORTFOLIO */
 
 .extraordinary-section {
-	background-color: #2e2e2e;
-	padding: 5rem 0
+	/*background-color: #2e2e2e;*/
+	padding: 5rem 0;
+	background-image: url(../img/stardust.png);
 }
 
 .extraordinary {
@@ -189,7 +190,7 @@ h3 {
 }
 
 .portfolio-description {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -236,7 +237,7 @@ h3 {
 }
 
 .open[data-state="expanded"]{
-	max-height: 90em;
+	max-height: 300em;
 }
 
 /* PORTFOLIO CONTENT */
@@ -245,11 +246,15 @@ h3 {
 	text-align: center;
 	line-height: 1.5rem;
 	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+
 }
 
 .initial-description{
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	line-height: 1.5rem;
 	/*margin: -7rem 4rem;*/
@@ -257,6 +262,14 @@ h3 {
 	border-bottom: 1px solid #ccc;
 	border-top: 1px solid #ccc;
 	padding: 1.5rem 0;
+}
+
+.soap-logo{
+	width: 100%;
+}
+
+.soap-scents{
+	width: 100%;
 }
 
 
