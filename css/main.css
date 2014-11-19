@@ -158,6 +158,33 @@ h2 {
 	-o-transition: extraordinary-fade 1s linear forwards;	
 }
 
+.line-separator{
+	height: 1px;
+	background: #ccc;
+	
+}
+
+
+.x-hover{
+	position: relative;	
+}
+
+.close{
+	width: 30px;
+	opacity: .4;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	-webkit-transition: opacity .125s ease-in-out;
+	-moz-transition: opacity .125s ease-in-out;
+	-o-transition: opacity .125s ease-in-out;
+	transition: opacity .125s ease-in-out;
+}
+
+.close:hover{
+	opacity: 1;
+}
+
+
 @-webkit-keyframes extraordinary-fade {
 	0%{
 		opacity: 0;
@@ -193,6 +220,8 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
+	font-weight: 700;
+	letter-spacing: .2em;
 }
 
 .portfolio-section-1,
@@ -222,7 +251,6 @@ h3 {
 
 .content{
 	background-color: #fff;
-	margin: 0 2rem;
 }
 
 .opener {
@@ -245,10 +273,13 @@ h3 {
 .description-title{
 	text-align: center;
 	line-height: 1.5rem;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 700;
+	letter-spacing: .2em;
+	border-bottom: 1px solid #ccc;
+	padding: 1.5rem 0;
 
 }
 
@@ -259,17 +290,31 @@ h3 {
 	line-height: 1.5rem;
 	/*margin: -7rem 4rem;*/
 	font-size: 14px;
-	border-bottom: 1px solid #ccc;
+	/*border-bottom: 1px solid #ccc;
 	border-top: 1px solid #ccc;
-	padding: 1.5rem 0;
+	padding: 1.5rem 0;*/
+	color: rgba(122,122,122,1.00);
 }
 
 .soap-logo{
 	width: 100%;
+	padding: 1.5rem 0;
 }
 
-.soap-scents{
+.img-one{
 	width: 100%;
+	padding: 3rem 0;
+}
+
+.link{
+	text-decoration: none;
+	border-bottom: 2px solid #d8eff4;
+	color: rgba(122,122,122,1.00);
+}
+
+.link:hover{
+	border-bottom: 0px;
+	color: #d8eff4;
 }
 
 
@@ -338,6 +383,14 @@ h3 {
 .copyright{
 	text-align: left;
 	padding: 0 3rem;
+}
+
+/* PORTFOLIO CONTENT */
+
+.soap-logo{
+	width: 75%;
+	border-bottom-width: 100%;
+	
 }
 
 }
