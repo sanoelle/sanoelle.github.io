@@ -317,6 +317,12 @@ h3 {
 	color: #d8eff4;
 }
 
+.link:visited{
+	text-decoration: none;
+	border-bottom: 2px solid #d8eff4;
+	color: rgba(122,122,122,1.00);
+}
+
 
 
 
