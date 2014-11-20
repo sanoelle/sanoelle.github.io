@@ -88,7 +88,7 @@ h3 {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 700;
-	letter-spacing: .2em;
+	letter-spacing: .1em;
 }
 
 .description-title{
@@ -98,7 +98,7 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: .2em;
+	letter-spacing: .1em;
 	border-bottom: 1px solid #ccc;
 	padding: 1.5rem 0;
 	display: block;
@@ -137,16 +137,17 @@ h3 {
 	font-weight: 300;
 	font-size: 12px;
 	text-transform: uppercase;
-	letter-spacing: .2rem;
+	letter-spacing: .1rem;
 	
 }
 
 .email {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #d8eff4;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
+	letter-spacing: .09rem;
 	
 }
 
