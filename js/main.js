@@ -11,3 +11,13 @@ $win.on('scroll', function () {
 $extraordinarySection.waypoint(function (){
 	$extraordinary.addClass('js-extraordinary-fade');
 }, { offset: '50%' });
+
+	
+//$(document).ready(function() {
+	//$(window).scroll(function() {
+		//if ($(this).topButton() > 200 {
+			//$('.top-button').fadeIn(200);
+		//} else {
+			//$('.top-button').fadeOut(200);
+		//}
+	//});

@@ -34,6 +34,14 @@ img {
 	width: 100%;
 }
 
+#scrollUp {
+	right: 2em;
+	bottom: 2em;
+	position: fixed;
+	text-decoration: none;
+}
+
+
 /* NAVIGATION */
 
 .nav-bar{
@@ -154,6 +162,15 @@ img {
 	}
 }
 
+@-webkit-keyframes top-button-fade {
+	0%{
+		opacity: 0;
+	} 
+	100%{
+		opacity: 1;
+	}
+}
+
 /* PORTFOLIO */
 
 .extraordinary-section {
@@ -233,7 +250,6 @@ img {
 	background-color: #d8eff4;
 	padding: 5rem 2rem;
 }
-
 
 @media only screen and (min-width: 48em){
 

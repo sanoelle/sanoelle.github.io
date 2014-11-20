@@ -76,6 +76,14 @@ h3 {
 	opacity: 0;
 }
 
+#scrollUp {
+	right: 2em;
+	bottom: 2em;
+	position: fixed;
+	text-decoration: none;
+}
+
+
 /* PORTFOLIO */
 
 .portfolio-text-align{
