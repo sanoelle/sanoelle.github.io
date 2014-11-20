@@ -9,6 +9,13 @@ Dark Grey - #2e2e2e
 
 */
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
 
 /* GENERAL */
 
