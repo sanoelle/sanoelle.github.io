@@ -49,7 +49,7 @@
 @media only screen and (min-width: 64em){ 
 
 .content {
-	padding: 0 15rem;
+	padding: 0 10rem;
 }
 
 .portfolio-section-1,
@@ -59,11 +59,11 @@
 .portfolio-section-5,
 .portfolio-section-6,
 .portfolio-section-7{
-	padding: 4rem 15rem;
+	padding: 4rem 10rem;
 }
 
 .about-section {
-	padding: 20rem 15rem;
+	padding: 20rem 10rem;
 }
 
 
