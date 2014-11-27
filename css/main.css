@@ -56,7 +56,7 @@ img {
 	height: 50px;
 	float: left;
 	display: inline-block;
-	margin-top: -7.8rem;
+	margin-top: -9.2rem;
 	margin-left: 0.2rem;
 	position: fixed;
 	/*background-color: rgba(235,127,80,.7);*/
@@ -112,7 +112,7 @@ img {
 	/*background: transparent url("../img/mountains-banner-noise-smaller.jpg") no-repeat center top;*/
 	background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;
 	background-size: cover;
-	padding: 6.5rem 0;
+	padding: 8rem 0;
 }
 
 /*.outline {
