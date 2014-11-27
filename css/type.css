@@ -7,15 +7,22 @@ h1 {
 }
 
 h2 {
-	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
-	color: #2e2e2e;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
 	text-align:center;
 	font-size:20px;
+	text-transform:uppercase;
+	letter-spacing: .3rem;
+	
 }
 
 h3 {
 	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
 	text-align: center;
+}
+
+.white-text {
+	color: #fff;
 }
 
 .text-align{
@@ -39,13 +46,14 @@ h3 {
 /* BANNER & INTRO */
 
 .intro {
-	color: #d8eff4;
+	color: #34394c;
 	text-align:center;
 	text-transform:uppercase;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 36px;
 	font-weight: 400;
 	margin: 1em;
+	/*background-color: #d8eff4;*/
 }
 
 .intro-2 {
@@ -58,7 +66,7 @@ h3 {
 
 .about-me {
 	font-family: 'Lato', sans-serif;
-	color: #2e2e2e;
+	color: #ffffff;
 	text-align: center;
 	font-size: 16px;
 	font-weight: 300;
@@ -73,16 +81,9 @@ h3 {
 	font-size:20px;
 	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
 	font-style: italic;	
+	letter-spacing: 2px;
 	opacity: 0;
 }
-
-#scrollUp {
-	right: 2em;
-	bottom: 2em;
-	position: fixed;
-	text-decoration: none;
-}
-
 
 /* PORTFOLIO */
 
@@ -150,17 +151,16 @@ h3 {
 }
 
 .email {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #d8eff4;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
-	letter-spacing: .09rem;
-	
+	letter-spacing: .09rem;	
 }
 
 .email:hover{
-	color: #eb7f50;	
+	color: #ffffff;	
 }
 
 
@@ -168,6 +168,10 @@ h3 {
 @media only screen and (min-width: 48em){ 
 .text-align{
 	text-align: left;
+}
+
+.intro-2 {
+	font-size: 16px;
 }
 
 }
