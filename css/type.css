@@ -81,7 +81,7 @@ h3 {
 	font-size:20px;
 	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
 	font-style: italic;	
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	opacity: 0;
 }
 
@@ -93,7 +93,7 @@ h3 {
 
 
 .portfolio-description {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 700;

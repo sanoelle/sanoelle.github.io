@@ -185,7 +185,7 @@ img {
 .extraordinary-section {
 	/*background-color: #2e2e2e;*/
 	padding: 5rem 0;
-	background-image: url(../img/stardust.png);
+	background-image: url(../img/stardust-gray.png);
 }
 
 
@@ -207,6 +207,8 @@ img {
 
 .portfolio-section-2 {
 	background-color: #4f5462;
+	background-image: url(../img/soap-factory-bg-small.svg);
+	background-size: cover;
 }
 
 /* PORTFOLIO DROP DOWN */
@@ -267,7 +269,19 @@ img {
 	padding: 5rem 2rem;
 }
 
+@media only screen and (min-width: 32em){
+.portfolio-section-2 {
+	background-image: url(../img/soap-factory-bg-med.svg);
+}
+
+}
+
+
 @media only screen and (min-width: 48em){
+	
+.portfolio-section-2 {
+	background-image: url(../img/soap-factory-bg.svg);
+}	
 
 .main-banner-section {
 	padding: 15rem 0;
@@ -288,7 +302,7 @@ img {
 .nav li {
 	padding-left: 2em;
 	padding-right: 2em;
-	font-size: 16px;
+	font-size: 13px;
 }
 
 .logo {
@@ -308,6 +322,10 @@ img {
 .piece-logo {
 	width: 70%;	
 }
+
+.portfolio-section-2 {
+	background-image: url(../img/soap-factory-bg-large.svg);
+}	
 
 }
 

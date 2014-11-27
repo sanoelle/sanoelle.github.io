@@ -7,6 +7,12 @@ $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 	$mainBannerSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 });
+
+$win.on('scroll', function () {
+	var scrollPos = $win.scrollTop();
+	$extraordinarySection.css('background-position', 'center ' + scrollPos / 1 + 'px');
+});
+	
 	
 $extraordinarySection.waypoint(function (){
 	$extraordinary.addClass('js-extraordinary-fade');
