@@ -269,6 +269,32 @@ img {
 	opacity: 1;
 }
 
+.social {
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1rem;
+}
+
+.social-link {
+	color: #ffffff;
+	opacity: .5;
+	text-decoration: none;
+}
+
+
+.social-link:hover {
+	opacity: 1;
+}
+	
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+	
+	
 .about-section {
 	background-color: #de4848;
 	padding: 5rem 2rem;
