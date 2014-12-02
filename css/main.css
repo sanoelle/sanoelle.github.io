@@ -206,7 +206,7 @@ img {
 }
 
 .portfolio-section-1 {
-	background-image: url(../img/sarah-noelle-bg-narrow.jpg);
+	background-image: url(../img/sarah-noelle/sarah-noelle-bg-narrow.jpg);
 	background-size: cover;
 }
 
@@ -322,10 +322,6 @@ img {
 	padding: 8rem 4rem;
 }
 
-.jagged-line {
-	margin-top: -3rem;	
-}
-
 .extraordinary-section {
 	padding: 8rem 0
 }
@@ -350,10 +346,6 @@ img {
 
 /* PORTFOLIO CONTENT */
 
-.piece-logo {
-	width: 70%;	
-}
-
 .portfolio-section-2 {
 	background-image: url(../img/soap-factory-bg-large.svg);
 }	
@@ -375,10 +367,6 @@ img {
 	height: 110px;
 	margin-top: -19.8rem;
 	margin-left: 1rem;
-}
-
-.piece-logo{
-	width: 50%;	
 }
 
 .about-section {
@@ -425,9 +413,6 @@ h3,
 	padding: .
 }
 	
-.piece-logo {
-	width: 40%;
-}
 }
 
 @media only screen and (min-width: 114em){

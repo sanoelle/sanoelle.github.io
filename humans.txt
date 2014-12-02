@@ -18,3 +18,5 @@ A big thank you to Devin Sturgeon for his .js page scroll code
 Thank you to my coding professor Thomas J. Bradley!
 
 Thanks to SubtlePatterns.com for their great selection of textures. 
+
+Cheers to Font Awesome! 
