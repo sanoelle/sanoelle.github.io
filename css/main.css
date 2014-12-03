@@ -194,7 +194,6 @@ img {
 }
 
 
-.portfolio-section-3,
 .portfolio-section-5,
 .portfolio-section-7{
 	background-color: #ccc;	
@@ -213,6 +212,11 @@ img {
 .portfolio-section-2 {
 	background-color: #4f5462;
 	background-image: url(../img/soap-factory-bg-small.svg);
+	background-size: cover;
+}
+
+.portfolio-section-3 {
+	background-image: url(../img/the-resistance/resistance-cover-s.jpg);
 	background-size: cover;
 }
 
@@ -246,6 +250,7 @@ img {
 
 .soap-bottle{
 	margin-bottom: 3rem;
+	margin-top: 4em;
 }
 
 .img-one{
@@ -304,6 +309,11 @@ img {
 	background-image: url(../img/soap-factory-bg-med.svg);
 }
 
+.soap-bottle{
+	margin-bottom: 3rem;
+	margin-top: 1em;
+}
+
 }
 
 
@@ -312,6 +322,10 @@ img {
 .portfolio-section-2 {
 	background-image: url(../img/soap-factory-bg.svg);
 }	
+
+.portfolio-section-3 {
+	background-image: url(../img/the-resistance/resistance-cover.jpg);
+}
 
 .main-banner-section {
 	padding: 15rem 0;
