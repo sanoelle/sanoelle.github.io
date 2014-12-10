@@ -275,7 +275,7 @@ img {
 
 /* FOOTER */
 .footer-section{
-	padding: 14rem 1rem;
+	padding: 7rem 1rem;
 	background-color: #2e2e2e;
 }
 
@@ -334,6 +334,11 @@ img {
 	margin-top: 1em;
 }
 
+.footer-section{
+	padding: 8rem 1rem;
+}
+
+
 }
 
 
@@ -381,6 +386,10 @@ img {
 
 .portfolio-section-1 {
 	background-image: url(../img/soap-factory-bg-large.svg);
+}
+
+.footer-section{
+	padding: 10rem 1rem;
 }	
 
 }
@@ -427,6 +436,10 @@ h2{
 h3,
 .portfolio-description {
 	text-align: left;
+}
+
+.footer-section{
+	padding: 14rem 1rem;
 }
 
 
