@@ -174,7 +174,7 @@ h3 {
 .email {
 	font-family: 'Montserrat', sans-serif;
 	color: #d8eff4;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: .09rem;	
@@ -234,6 +234,10 @@ h2 {
 
 .extraordinary {
 	font-size: 30px;
+}
+
+.email {
+	font-size: 20px;
 }
 
 }
