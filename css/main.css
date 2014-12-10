@@ -281,7 +281,8 @@ img {
 
 .footer-section-2 {
 	/*background-color: #d8eff4;*/
-	background-color: #292929;
+	background-color: #fff;
+	padding: .2rem;
 }
 
 .social-icons{
