@@ -21,6 +21,11 @@
 }
 */
 
+.limitless-icons {
+	width: 200px;
+	
+}
+
 
 .portfolio-section-1,
 .portfolio-section-2,
@@ -40,6 +45,23 @@
 	width: 100%;
 }
 
+.disappear {
+	/**/
+}
+
+.title-image {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.boombox {
+	width: 200px;
+	margin-bottom: 2rem;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
 
 /*iPad*/
 @media only screen and (min-width: 48em){ 
@@ -51,6 +73,26 @@
 	width: 80%;
 }
 
+
+
+}
+
+@media only screen and (min-width: 52em){
+	.content {
+	padding: 0 4rem;
+
+}
+
+.portfolio-section-1,
+.portfolio-section-2,
+.portfolio-section-3,
+.portfolio-section-4,
+.portfolio-section-5,
+.portfolio-section-6,
+.portfolio-section-7{
+	padding: 4rem 4rem;
+}
+	
 }
 
 @media only screen and (min-width: 56em){
@@ -73,6 +115,10 @@
 	width: 70%;
 }
 
+.disappear {
+	display: none;
+}
+
 
 /*Standard Desktop & Laptop*/
 @media only screen and (min-width: 64em){ 
@@ -91,17 +137,33 @@
 	padding: 4rem 10rem;
 }
 
+.width-about {
+	padding: 7rem 2rem;
+
+}
+
 
 }
 
 /*Large Screens*/
 @media only screen and (min-width: 80em){ 
 
+.width-about {
+	padding: 10rem 10rem;
+}
+
+.width {
+	padding: 0 10rem;
+}
+
 }
 
 
 /*Extra-Large Screens*/
 @media only screen and (min-width: 114em){ 
+
+.width {
+	padding: 
 
 }
 

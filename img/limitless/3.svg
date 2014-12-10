@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+<circle fill="#E1513C" cx="2527.8" cy="360" r="294.4"/>
+<circle fill="#E9AE21" cx="2563.5" cy="206.9" r="18.1"/>
+<circle fill="none" cx="2527.8" cy="360" r="294.4"/>
+<g>
+	<circle fill="#E9AE21" cx="360" cy="360" r="294.4"/>
+	<polygon fill="#D79729" points="233.9,390.1 192,330.4 174.3,333 162.3,387.4 	"/>
+	<polygon fill="#D79729" points="269.2,390.1 227.2,330.4 213,339.6 191.3,387.4 	"/>
+	<polygon fill="#D79729" points="301.1,390.1 259.1,330.4 257.8,349.6 259.6,386.1 	"/>
+	<polygon fill="#D79729" points="329.4,390.1 287.5,330.4 267.8,350.9 287.9,386.1 	"/>
+	<polygon fill="#D79729" points="399.5,392.6 357.6,332.9 325.7,341 320.1,387.2 	"/>
+	<polygon fill="#D79729" points="450,394.4 408.1,334.7 376.2,340.7 370.6,389 	"/>
+	<polygon fill="#D79729" points="484.9,390.4 443,330.7 431.9,347 424.3,388.8 	"/>
+	<polygon fill="#D79729" points="543.8,395.3 501.9,335.5 479.4,336.5 469.3,388.9 	"/>
+	<polygon fill="#D79729" points="596.1,390.4 554.2,330.7 531.7,331.6 521.6,384 	"/>
+	<polygon fill="#D79729" points="623.9,390.4 581.9,330.7 574.5,331.6 564.4,384 	"/>
+	<circle fill="none" cx="360" cy="360" r="294.4"/>
+	<circle fill="none" cx="360" cy="360" r="294.4"/>
+	<polyline fill="#D79729" points="119.5,336.4 145.6,333 187.6,392.7 122.4,385.1 124.9,375.5 133,367.2 130.8,357.1 121.4,341.4 
+		130.9,333 	"/>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="360" cy="360" r="294.4"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<polygon clip-path="url(#SVGID_2_)" fill="#D79729" points="756.1,672.8 307.2,672.8 109.9,377 597.8,379.3 		"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="360" cy="360" r="294.4"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+		<polygon clip-path="url(#SVGID_4_)" fill="#D79729" points="718.9,485.3 610.3,330.7 605.3,333.2 579.2,468.8 		"/>
+	</g>
+	<g>
+		
+			<text transform="matrix(1 0 0 1 108.4791 379.294)" fill="#FFFFFF" font-family="'OpenSans-BoldItalic'" font-size="68.4039" letter-spacing="6">STAY GOLDEN</text>
+	</g>
+</g>
+<polygon fill="#C6DDE0" points="2323.4,458 2466.6,214.4 2609.8,458 "/>
+<polygon fill="#C6DDE0" points="2445.7,458 2612.7,279.1 2732.1,458 "/>
+<polygon fill="#FFFFFF" points="2422.1,290.2 2445.7,279.1 2448.8,344.9 2476.1,308.8 2539,375.9 2572.2,344.9 2588.9,368.6 
+	2609.8,319.6 2641.7,375.9 2647.5,360.2 2681.4,382.1 2612.7,279.1 2546.4,350.2 2466.6,214.4 "/>
+<g>
+	<defs>
+		<circle id="SVGID_5_" cx="2527.8" cy="360" r="294.4"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  overflow="visible"/>
+	</clipPath>
+	<polygon clip-path="url(#SVGID_6_)" fill="#C64237" points="2917.7,753.8 2520.7,753.8 2323.4,458 2732.1,458 	"/>
+</g>
+</svg>

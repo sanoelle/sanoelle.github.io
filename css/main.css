@@ -35,13 +35,17 @@ img {
 	width: 100%;
 }
 
-#scrollUp {
+.top-btn {
 	right: 2em;
 	bottom: 2em;
 	position: fixed;
-	text-decoration: none;
+	opacity: 0;
+	width: 55px;
 }
 
+.top-btn[data-state="visible"] {
+	opacity: 1;
+}
 
 /* NAVIGATION */
 
@@ -109,15 +113,10 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	/*background: transparent url("../img/mountains-banner-noise-smaller.jpg") no-repeat center top;*/
-	background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-noise-smaller.jpg") no-repeat center top;
+	/*background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;*/
 	background-size: cover;
 	padding: 8rem 0;
-}
-
-.arrow {
-	width: 60px;
-	margin-top: 1rem;
 }
 
 /*.outline {
@@ -167,6 +166,7 @@ img {
 }
 
 
+
 @-webkit-keyframes extraordinary-fade {
 	0%{
 		opacity: 0;
@@ -194,28 +194,43 @@ img {
 }
 
 
-.portfolio-section-5,
+.portfolio-section-5{
+	/*background-color: #f3c316;*/
+	background-image: url(../img/golden-days/banner-photo.jpg);
+	background-size: cover;
+}
+
 .portfolio-section-7{
-	background-color: #ccc;	
+	/*background-color: #590c30;	**/
+	background-image: url(../img/burgundy/burgundy-banner.jpg);
+	background-size: cover;
 }
 
-.portfolio-section-4,
 .portfolio-section-6{
-	background-color: #c2c2c2;
-}
-
-.portfolio-section-1 {
-	background-image: url(../img/sarah-noelle/sarah-noelle-bg-narrow.jpg);
-	background-size: cover;
-}
-
-.portfolio-section-2 {
-	background-color: #4f5462;
-	background-image: url(../img/soap-factory-bg-small.svg);
-	background-size: cover;
+	background-color: #c6dddf;
 }
 
 .portfolio-section-3 {
+	/*background-image: url(../img/alices-tea-shop/alice-cover.jpg);
+	
+	background-size: cover;*/
+	color: #fff;
+	background-color: #94a7b1;
+}
+
+.portfolio-section-2 {
+	background-image: url(../img/sarah-noelle/sarah-noelle-bg-narrow.jpg);
+	color: #fff;
+	background-size: cover;
+}
+
+.portfolio-section-1 {
+	background-color: #4f5462;
+	color: #fff;
+	/*background-image:url(../img/soap-factory/banner.svg);*/
+}
+
+.portfolio-section-4 {
 	background-image: url(../img/the-resistance/resistance-cover-s.jpg);
 	background-size: cover;
 }
@@ -260,7 +275,7 @@ img {
 
 /* FOOTER */
 .footer-section{
-	padding: 2rem;
+	padding: 14rem 1rem;
 	background-color: #2e2e2e;
 }
 
@@ -305,7 +320,7 @@ img {
 }
 
 @media only screen and (min-width: 32em){
-.portfolio-section-2 {
+.portfolio-section-1 {
 	background-image: url(../img/soap-factory-bg-med.svg);
 }
 
@@ -319,11 +334,11 @@ img {
 
 @media only screen and (min-width: 48em){
 	
-.portfolio-section-2 {
+.portfolio-section-1 {
 	background-image: url(../img/soap-factory-bg.svg);
 }	
 
-.portfolio-section-3 {
+.portfolio-section-4 {
 	background-image: url(../img/the-resistance/resistance-cover.jpg);
 }
 
@@ -359,7 +374,7 @@ img {
 
 /* PORTFOLIO CONTENT */
 
-.portfolio-section-2 {
+.portfolio-section-1 {
 	background-image: url(../img/soap-factory-bg-large.svg);
 }	
 
