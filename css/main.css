@@ -113,7 +113,7 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/mountains-banner-noise-smaller.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-noise-smaller2.jpg") no-repeat center top;
 	/*background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;*/
 	background-size: cover;
 	padding: 8rem 0;
@@ -277,6 +277,11 @@ img {
 .footer-section{
 	padding: 14rem 1rem;
 	background-color: #2e2e2e;
+}
+
+.footer-section-2 {
+	/*background-color: #d8eff4;*/
+	background-color: #1b1b1b;
 }
 
 .social-icons{
