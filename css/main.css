@@ -113,7 +113,8 @@ img {
 /* "HOME" PAGE */
 
 .main-banner-section {
-	background: transparent url("../img/mountains-banner-noise-smaller2.jpg") no-repeat center top;
+	background: transparent url("../img/mountains-banner-noise-darker.jpg") no-repeat center top;
+	/*background: transparent url("../img/mountains-banner-noise-smaller2.jpg") no-repeat center top;*/
 	/*background: transparent url("../img/colour-mountains-noise.jpg") no-repeat center top;*/
 	background-size: cover;
 	padding: 8rem 0;
