@@ -52,7 +52,8 @@ h3 {
 /* BANNER & INTRO */
 
 .intro {
-	color: #34394c;
+	/*color: #34394c;*/
+	color: #fff;
 	text-align:center;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
