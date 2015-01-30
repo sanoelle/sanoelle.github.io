@@ -57,6 +57,7 @@ h3 {
 	text-align:center;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
 	font-size: 30px;
 	font-weight: 400;
 	margin: 1em;
@@ -164,7 +165,7 @@ h3 {
 /* FOOTER */
 .copyright{
 	text-align:center;
-	color: #2e2e2e;
+	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 12px;
